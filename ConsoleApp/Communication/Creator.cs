@@ -6,13 +6,15 @@ namespace ConsoleApp.Communication
   public class Creator
   {
     private readonly IOrganizationService _Service;
+    private readonly Logger _Logger;
 
-    public Creator(IOrganizationService service)
+    public Creator(IOrganizationService service, Logger logger)
     {
       _Service = service;
+      _Logger = logger;
     }
 
-    public void NewEntity(Type type, string value, string fullName, Guid conctactGuid)
+    public Guid Create(Type type, string value, string fullName, Guid conctactGuid)
     {
       Entity entity = new Entity(Constants.Communication.ENTITYNAME);
 
@@ -48,9 +50,9 @@ namespace ConsoleApp.Communication
         entity[Constants.Communication.Fields.CONTACTID] = conctactRef;
       }
 
-      _Service.Create(entity);
+      _Logger.Info($"Created new communication entity with name {fullName}");
 
-      Program.Logger.Info($"Created new communication entity with name {fullName}");
+      return _Service.Create(entity);
     }
   }
 }

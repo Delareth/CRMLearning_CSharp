@@ -125,17 +125,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Communication\CommunicationCreator.cs" />
-    <Compile Include="Communication\CommunicationData.cs" />
-    <Compile Include="Communication\CommunicatonType.cs" />
-    <Compile Include="Communication\CommunicationParser.cs" />
+    <Compile Include="Communication\Creator.cs" />
+    <Compile Include="Communication\Data.cs" />
+    <Compile Include="Communication\Type.cs" />
+    <Compile Include="Communication\Parser.cs" />
     <Compile Include="ConnectOptions.cs" />
     <Compile Include="Connector.cs" />
     <Compile Include="Constants\Communication.cs" />
     <Compile Include="Constants\ConnectOptions.cs" />
     <Compile Include="Constants\Contact.cs" />
-    <Compile Include="Contact\ContactParser.cs" />
-    <Compile Include="Contact\ContactUpdater.cs" />
+    <Compile Include="Contact\Parser.cs" />
+    <Compile Include="Contact\Updater.cs" />
     <Compile Include="Logger.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

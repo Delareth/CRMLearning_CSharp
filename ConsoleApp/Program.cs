@@ -8,22 +8,22 @@ namespace ConsoleApp
   public class Program
   {
     private static Connector _Connector;
-    public static Logger Logger;
+    private static Logger _Logger;
 
     static void Main(string[] args)
     {
       ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
 
-      Logger = new Logger();
+      _Logger = new Logger();
 
       try
       {
         _Connector = new Connector();
-        Logger.Info("Client succesful connected to CRM");
+        _Logger.Info("Client succesful connected to CRM");
       }
       catch (Exception ex)
       {
-        Logger.Error("Can't connect to CRM", ex);
+        _Logger.Error("Can't connect to CRM", ex);
         throw;
       }
 
@@ -37,7 +37,7 @@ namespace ConsoleApp
     private static void ParseCommunications()
     {
       Communication.Parser communicationParser = new Communication.Parser(_Connector.Service);
-      Contact.Updater contactUpdater = new Contact.Updater(_Connector.Service);
+      Contact.Updater contactUpdater = new Contact.Updater(_Connector.Service, _Logger);
 
       IEnumerable<Communication.Data> communicationsForUpdate = communicationParser.GetEntitiesForUpdate();
 
@@ -49,7 +49,7 @@ namespace ConsoleApp
 
     private static void ParseContacts()
     {
-      Communication.Creator communicationCreator = new Communication.Creator(_Connector.Service);
+      Communication.Creator communicationCreator = new Communication.Creator(_Connector.Service, _Logger);
       Contact.Parser contactParser = new Contact.Parser(_Connector.Service);
 
       DataCollection<Entity> contacts = contactParser.GetAllWithEmptyCommunicationRef();
@@ -63,14 +63,14 @@ namespace ConsoleApp
         {
           string value = entity.GetAttributeValue<string>(Constants.Contact.Fields.PHONE);
 
-          communicationCreator.NewEntity(Communication.Type.Phone, value, fullName, contactGuid);
+          communicationCreator.Create(Communication.Type.Phone, value, fullName, contactGuid);
         }
 
         if (entity.Contains(Constants.Contact.Fields.EMAIL))
         {
           string value = entity.GetAttributeValue<string>(Constants.Contact.Fields.EMAIL);
 
-          communicationCreator.NewEntity(Communication.Type.Email, value, fullName, contactGuid);
+          communicationCreator.Create(Communication.Type.Email, value, fullName, contactGuid);
         }
       }
     }
