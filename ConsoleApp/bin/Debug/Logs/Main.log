@@ -1,0 +1,75 @@
+[25.12.2020, 11:47:11][INFO]: Client succesful connected to CRM
+[25.12.2020, 11:47:52][INFO]: Client succesful connected to CRM
+[25.12.2020, 11:47:52][INFO]: {[emailaddress1, someone_a@example.com], [fullname, Yvonne McKay (sample)], [contactid, abb2be57-993c-eb11-bf68-000d3abf362f]}
+[25.12.2020, 11:47:52][INFO]: contact
+[25.12.2020, 11:47:52][INFO]: {[emailaddress1, someone_b@example.com], [fullname, Susanna Stubberod (sample)], [contactid, adb2be57-993c-eb11-bf68-000d3abf362f]}
+[25.12.2020, 11:47:52][INFO]: contact
+[25.12.2020, 11:47:52][INFO]: {[emailaddress1, someone_c@example.com], [fullname, Nancy Anderson (sample)], [contactid, afb2be57-993c-eb11-bf68-000d3abf362f]}
+[25.12.2020, 11:47:52][INFO]: contact
+[25.12.2020, 11:47:52][INFO]: {[emailaddress1, someone_d@example.com], [fullname, Maria Campbell (sample)], [contactid, b1b2be57-993c-eb11-bf68-000d3abf362f]}
+[25.12.2020, 11:47:52][INFO]: contact
+[25.12.2020, 11:47:52][INFO]: {[emailaddress1, someone_e@example.com], [fullname, Sidney Higa (sample)], [contactid, b3b2be57-993c-eb11-bf68-000d3abf362f]}
+[25.12.2020, 11:47:52][INFO]: contact
+[25.12.2020, 11:47:52][INFO]: {[emailaddress1, someone_f@example.com], [fullname, Scott Konersmann (sample)], [contactid, b5b2be57-993c-eb11-bf68-000d3abf362f]}
+[25.12.2020, 11:47:52][INFO]: contact
+[25.12.2020, 11:47:52][INFO]: {[emailaddress1, someone_g@example.com], [fullname, Robert Lyon (sample)], [contactid, b7b2be57-993c-eb11-bf68-000d3abf362f]}
+[25.12.2020, 11:47:52][INFO]: contact
+[25.12.2020, 11:47:52][INFO]: {[emailaddress1, someone_h@example.com], [fullname, Paul Cannon (sample)], [contactid, b9b2be57-993c-eb11-bf68-000d3abf362f]}
+[25.12.2020, 11:47:52][INFO]: contact
+[25.12.2020, 11:47:52][INFO]: {[emailaddress1, someone_i@example.com], [fullname, Rene Valdes (sample)], [contactid, bbb2be57-993c-eb11-bf68-000d3abf362f]}
+[25.12.2020, 11:47:52][INFO]: contact
+[25.12.2020, 11:47:52][INFO]: {[emailaddress1, someone_j@example.com], [fullname, Jim Glynn (sample)], [contactid, bdb2be57-993c-eb11-bf68-000d3abf362f]}
+[25.12.2020, 11:47:52][INFO]: contact
+[25.12.2020, 11:47:52][INFO]: {[emailaddress1, someone_k@example.com], [fullname, Patrick Sands (sample)], [contactid, bfb2be57-993c-eb11-bf68-000d3abf362f]}
+[25.12.2020, 11:47:52][INFO]: contact
+[25.12.2020, 11:47:52][INFO]: {[emailaddress1, someone_l@example.com], [fullname, Susan Burk (sample)], [contactid, c1b2be57-993c-eb11-bf68-000d3abf362f]}
+[25.12.2020, 11:47:52][INFO]: contact
+[25.12.2020, 11:47:52][INFO]: {[emailaddress1, someone_m@example.com], [fullname, Thomas Andersen (sample)], [contactid, c3b2be57-993c-eb11-bf68-000d3abf362f]}
+[25.12.2020, 11:47:52][INFO]: contact
+[25.12.2020, 12:30:49][INFO]: Client succesful connected to CRM
+[25.12.2020, 12:30:49][INFO]: {[emailaddress1, someone_a@example.com], [fullname, Yvonne McKay (sample)], [contactid, abb2be57-993c-eb11-bf68-000d3abf362f]}
+[25.12.2020, 12:30:49][INFO]: contact
+[25.12.2020, 12:30:49][INFO]: {[emailaddress1, someone_b@example.com], [fullname, Susanna Stubberod (sample)], [contactid, adb2be57-993c-eb11-bf68-000d3abf362f]}
+[25.12.2020, 12:30:49][INFO]: contact
+[25.12.2020, 12:30:49][INFO]: {[emailaddress1, someone_c@example.com], [fullname, Nancy Anderson (sample)], [contactid, afb2be57-993c-eb11-bf68-000d3abf362f]}
+[25.12.2020, 12:30:49][INFO]: contact
+[25.12.2020, 12:30:49][INFO]: {[emailaddress1, someone_d@example.com], [fullname, Maria Campbell (sample)], [contactid, b1b2be57-993c-eb11-bf68-000d3abf362f]}
+[25.12.2020, 12:30:49][INFO]: contact
+[25.12.2020, 12:30:49][INFO]: {[emailaddress1, someone_e@example.com], [fullname, Sidney Higa (sample)], [contactid, b3b2be57-993c-eb11-bf68-000d3abf362f]}
+[25.12.2020, 12:30:49][INFO]: contact
+[25.12.2020, 12:30:49][INFO]: {[emailaddress1, someone_f@example.com], [fullname, Scott Konersmann (sample)], [contactid, b5b2be57-993c-eb11-bf68-000d3abf362f]}
+[25.12.2020, 12:30:49][INFO]: contact
+[25.12.2020, 12:30:49][INFO]: {[emailaddress1, someone_g@example.com], [fullname, Robert Lyon (sample)], [contactid, b7b2be57-993c-eb11-bf68-000d3abf362f]}
+[25.12.2020, 12:30:49][INFO]: contact
+[25.12.2020, 12:30:49][INFO]: {[emailaddress1, someone_h@example.com], [fullname, Paul Cannon (sample)], [contactid, b9b2be57-993c-eb11-bf68-000d3abf362f]}
+[25.12.2020, 12:30:49][INFO]: contact
+[25.12.2020, 12:30:49][INFO]: {[emailaddress1, someone_i@example.com], [fullname, Rene Valdes (sample)], [contactid, bbb2be57-993c-eb11-bf68-000d3abf362f]}
+[25.12.2020, 12:30:49][INFO]: contact
+[25.12.2020, 12:30:49][INFO]: {[emailaddress1, someone_j@example.com], [fullname, Jim Glynn (sample)], [contactid, bdb2be57-993c-eb11-bf68-000d3abf362f]}
+[25.12.2020, 12:30:49][INFO]: contact
+[25.12.2020, 12:30:49][INFO]: {[emailaddress1, someone_k@example.com], [fullname, Patrick Sands (sample)], [contactid, bfb2be57-993c-eb11-bf68-000d3abf362f]}
+[25.12.2020, 12:30:49][INFO]: contact
+[25.12.2020, 12:30:49][INFO]: {[emailaddress1, someone_l@example.com], [fullname, Susan Burk (sample)], [contactid, c1b2be57-993c-eb11-bf68-000d3abf362f]}
+[25.12.2020, 12:30:49][INFO]: contact
+[25.12.2020, 12:30:49][INFO]: {[emailaddress1, someone_m@example.com], [fullname, Thomas Andersen (sample)], [contactid, c3b2be57-993c-eb11-bf68-000d3abf362f]}
+[25.12.2020, 12:30:49][INFO]: contact
+[25.12.2020, 12:42:04][INFO]: Client succesful connected to CRM
+[25.12.2020, 12:42:38][INFO]: Client succesful connected to CRM
+[25.12.2020, 12:44:50][INFO]: Client succesful connected to CRM
+[25.12.2020, 12:45:56][INFO]: Client succesful connected to CRM
+[25.12.2020, 12:47:33][INFO]: Client succesful connected to CRM
+[25.12.2020, 12:48:39][INFO]: Client succesful connected to CRM
+[25.12.2020, 12:48:41][INFO]: Created new communication entity with name Yvonne McKay (sample)
+[25.12.2020, 12:48:41][INFO]: Created new communication entity with name Susanna Stubberod (sample)
+[25.12.2020, 12:48:41][INFO]: Created new communication entity with name Nancy Anderson (sample)
+[25.12.2020, 12:48:41][INFO]: Created new communication entity with name Maria Campbell (sample)
+[25.12.2020, 12:48:41][INFO]: Created new communication entity with name Sidney Higa (sample)
+[25.12.2020, 12:48:41][INFO]: Created new communication entity with name Scott Konersmann (sample)
+[25.12.2020, 12:48:41][INFO]: Created new communication entity with name Robert Lyon (sample)
+[25.12.2020, 12:48:41][INFO]: Created new communication entity with name Paul Cannon (sample)
+[25.12.2020, 12:48:41][INFO]: Created new communication entity with name Rene Valdes (sample)
+[25.12.2020, 12:48:41][INFO]: Created new communication entity with name Jim Glynn (sample)
+[25.12.2020, 12:48:42][INFO]: Created new communication entity with name Patrick Sands (sample)
+[25.12.2020, 12:48:42][INFO]: Created new communication entity with name Susan Burk (sample)
+[25.12.2020, 12:48:42][INFO]: Created new communication entity with name Thomas Andersen (sample)
+[25.12.2020, 12:49:18][INFO]: Client succesful connected to CRM
