@@ -92,8 +92,6 @@ namespace ConsoleApp.Communication
 
         if (currentValue == newValue) continue;
 
-        Program.Logger.Info($"Updating contact: {conctactRef.Name} with value: {newValue}");
-
         yield return new Data(conctactRef, updatingField, newValue);
       }
     }
