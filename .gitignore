@@ -2,3 +2,4 @@
 ConsoleApp/obj/*
 ConsoleApp/Constants/ConnectOptions.cs
 packages/*
+CRMLearning.Plugins/obj/*
