@@ -2,14 +2,14 @@
 {
   public static class Contact
   {
-    public static string ENTITYNAME = "contact";
+    public const string ENTITYNAME = "contact";
 
     public static class Fields
     {
-      public static string NAME = "fullname";
-      public static string PHONE = "mobilephone";
-      public static string EMAIL = "emailaddress1";
-      public static string CONTACTID = "contactid";
+      public const string NAME = "fullname";
+      public const string PHONE = "mobilephone";
+      public const string EMAIL = "emailaddress1";
+      public const string CONTACTID = "contactid";
     }
   }
 }
